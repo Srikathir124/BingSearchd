@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+  <parameter name="url" value="https://www.bing.com/" />
+  <parameter name="username" value="srikathir124@gmail.com" />
+  <parameter name="password" value=""></parameter>
+  <test name="Bing Web Search">
+      <classes>
+     	<class name="BingPackage.BingClass"> 
+	     	<methods>
+	     		<include name="SignIn"></include>
+	     		<include name="Search"></include>
+	     	</methods>
+     	</class>
+      </classes>
+  </test> 
+</suite> 
