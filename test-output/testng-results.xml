@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="35" passed="34" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-02T01:45:24 EST" name="Practice Suite" finished-at="2023-03-02T01:46:30 EST" duration-ms="65901">
+  <suite started-at="2023-03-03T10:13:51 EST" name="Practice Suite" finished-at="2023-03-03T10:14:58 EST" duration-ms="67819">
     <groups>
     </groups>
-    <test started-at="2023-03-02T01:45:24 EST" name="Bing Web Search" finished-at="2023-03-02T01:46:30 EST" duration-ms="65901">
+    <test started-at="2023-03-03T10:13:51 EST" name="Bing Web Search" finished-at="2023-03-03T10:14:58 EST" duration-ms="67819">
       <class name="BingPackage.BingClass">
-        <test-method is-config="true" signature="openUrl(java.lang.String)[pri:0, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:15 EST" name="openUrl" finished-at="2023-03-02T01:45:24 EST" duration-ms="8808" status="PASS">
+        <test-method is-config="true" signature="openUrl(java.lang.String)[pri:0, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:13:42 EST" name="openUrl" finished-at="2023-03-03T10:13:51 EST" duration-ms="8715" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="SignIn(java.lang.String,java.lang.String)[pri:1, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:24 EST" name="SignIn" finished-at="2023-03-02T01:45:32 EST" duration-ms="7261" status="PASS">
+        <test-method signature="SignIn(java.lang.String,java.lang.String)[pri:1, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:13:51 EST" name="SignIn" finished-at="2023-03-03T10:13:58 EST" duration-ms="7224" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignIn -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:32 EST" name="Search" finished-at="2023-03-02T01:45:33 EST" duration-ms="1223" status="FAIL">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:13:58 EST" name="Search" finished-at="2023-03-03T10:13:59 EST" duration-ms="1225" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -42,10 +42,10 @@
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [7bd8fca1b8f77cf3114d618a1264f300, sendKeysToElement {id=6d6ea3d9-f7da-418e-a5d7-7383bb5427bc, value=[Ljava.lang.CharSequence;@627d8516}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.57, ms:edgeOptions: {debuggerAddress: localhost:61113}, msedge: {msedgedriverVersion: 110.0.1587.56 (65e63b43e03b..., userDataDir: C:\Users\SRKTRV~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61113/devtoo..., se:cdpVersion: 110.0.1587.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (7bd8fca1b8f77cf3114d618a1264f300)] -> xpath: //textarea[@name='q']]
-Session ID: 7bd8fca1b8f77cf3114d618a1264f300]]>
+Command: [da248fd1e7b18aa93ba04171bde33a60, sendKeysToElement {id=1d7a3040-c551-440f-8719-e7fba9f2fdd6, value=[Ljava.lang.CharSequence;@61e3cf4d}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.57, ms:edgeOptions: {debuggerAddress: localhost:58635}, msedge: {msedgedriverVersion: 110.0.1587.56 (65e63b43e03b..., userDataDir: C:\Users\SRKTRV~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58635/devtoo..., se:cdpVersion: 110.0.1587.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (da248fd1e7b18aa93ba04171bde33a60)] -> xpath: //textarea[@name='q']]
+Session ID: da248fd1e7b18aa93ba04171bde33a60]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -53,10 +53,10 @@ Session ID: 7bd8fca1b8f77cf3114d618a1264f300]]>
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [7bd8fca1b8f77cf3114d618a1264f300, sendKeysToElement {id=6d6ea3d9-f7da-418e-a5d7-7383bb5427bc, value=[Ljava.lang.CharSequence;@627d8516}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.57, ms:edgeOptions: {debuggerAddress: localhost:61113}, msedge: {msedgedriverVersion: 110.0.1587.56 (65e63b43e03b..., userDataDir: C:\Users\SRKTRV~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61113/devtoo..., se:cdpVersion: 110.0.1587.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (7bd8fca1b8f77cf3114d618a1264f300)] -> xpath: //textarea[@name='q']]
-Session ID: 7bd8fca1b8f77cf3114d618a1264f300
+Command: [da248fd1e7b18aa93ba04171bde33a60, sendKeysToElement {id=1d7a3040-c551-440f-8719-e7fba9f2fdd6, value=[Ljava.lang.CharSequence;@61e3cf4d}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.57, ms:edgeOptions: {debuggerAddress: localhost:58635}, msedge: {msedgedriverVersion: 110.0.1587.56 (65e63b43e03b..., userDataDir: C:\Users\SRKTRV~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58635/devtoo..., se:cdpVersion: 110.0.1587.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (da248fd1e7b18aa93ba04171bde33a60)] -> xpath: //textarea[@name='q']]
+Session ID: da248fd1e7b18aa93ba04171bde33a60
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -106,139 +106,139 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:33 EST" name="Search" finished-at="2023-03-02T01:45:33 EST" duration-ms="619" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:13:59 EST" name="Search" finished-at="2023-03-03T10:14:01 EST" duration-ms="1436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:33 EST" name="Search" finished-at="2023-03-02T01:45:35 EST" duration-ms="1420" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:01 EST" name="Search" finished-at="2023-03-03T10:14:02 EST" duration-ms="1614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:35 EST" name="Search" finished-at="2023-03-02T01:45:37 EST" duration-ms="1672" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:02 EST" name="Search" finished-at="2023-03-03T10:14:04 EST" duration-ms="2013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:37 EST" name="Search" finished-at="2023-03-02T01:45:38 EST" duration-ms="1909" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:04 EST" name="Search" finished-at="2023-03-03T10:14:06 EST" duration-ms="1989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:38 EST" name="Search" finished-at="2023-03-02T01:45:40 EST" duration-ms="1656" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:06 EST" name="Search" finished-at="2023-03-03T10:14:10 EST" duration-ms="4227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:40 EST" name="Search" finished-at="2023-03-02T01:45:42 EST" duration-ms="1513" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:10 EST" name="Search" finished-at="2023-03-03T10:14:12 EST" duration-ms="1636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:42 EST" name="Search" finished-at="2023-03-02T01:45:43 EST" duration-ms="1303" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:12 EST" name="Search" finished-at="2023-03-03T10:14:14 EST" duration-ms="1737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:43 EST" name="Search" finished-at="2023-03-02T01:45:45 EST" duration-ms="1628" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:14 EST" name="Search" finished-at="2023-03-03T10:14:15 EST" duration-ms="1549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:45 EST" name="Search" finished-at="2023-03-02T01:45:46 EST" duration-ms="1460" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:15 EST" name="Search" finished-at="2023-03-03T10:14:17 EST" duration-ms="1575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:46 EST" name="Search" finished-at="2023-03-02T01:45:49 EST" duration-ms="2534" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:17 EST" name="Search" finished-at="2023-03-03T10:14:19 EST" duration-ms="1995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:49 EST" name="Search" finished-at="2023-03-02T01:45:50 EST" duration-ms="1860" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:19 EST" name="Search" finished-at="2023-03-03T10:14:21 EST" duration-ms="1616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:50 EST" name="Search" finished-at="2023-03-02T01:45:52 EST" duration-ms="1879" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:21 EST" name="Search" finished-at="2023-03-03T10:14:22 EST" duration-ms="1604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:52 EST" name="Search" finished-at="2023-03-02T01:45:54 EST" duration-ms="2132" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:22 EST" name="Search" finished-at="2023-03-03T10:14:24 EST" duration-ms="1866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:54 EST" name="Search" finished-at="2023-03-02T01:45:56 EST" duration-ms="1782" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:24 EST" name="Search" finished-at="2023-03-03T10:14:26 EST" duration-ms="2038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:56 EST" name="Search" finished-at="2023-03-02T01:45:58 EST" duration-ms="1570" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:26 EST" name="Search" finished-at="2023-03-03T10:14:28 EST" duration-ms="2331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:45:58 EST" name="Search" finished-at="2023-03-02T01:46:00 EST" duration-ms="1883" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:28 EST" name="Search" finished-at="2023-03-03T10:14:30 EST" duration-ms="1599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:00 EST" name="Search" finished-at="2023-03-02T01:46:01 EST" duration-ms="1507" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:30 EST" name="Search" finished-at="2023-03-03T10:14:32 EST" duration-ms="1691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:01 EST" name="Search" finished-at="2023-03-02T01:46:03 EST" duration-ms="1570" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:32 EST" name="Search" finished-at="2023-03-03T10:14:34 EST" duration-ms="1811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:03 EST" name="Search" finished-at="2023-03-02T01:46:04 EST" duration-ms="1601" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:34 EST" name="Search" finished-at="2023-03-03T10:14:35 EST" duration-ms="1637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:04 EST" name="Search" finished-at="2023-03-02T01:46:06 EST" duration-ms="1752" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:35 EST" name="Search" finished-at="2023-03-03T10:14:37 EST" duration-ms="1861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:06 EST" name="Search" finished-at="2023-03-02T01:46:08 EST" duration-ms="1733" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:37 EST" name="Search" finished-at="2023-03-03T10:14:39 EST" duration-ms="1719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:08 EST" name="Search" finished-at="2023-03-02T01:46:10 EST" duration-ms="1780" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:39 EST" name="Search" finished-at="2023-03-03T10:14:41 EST" duration-ms="1777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:10 EST" name="Search" finished-at="2023-03-02T01:46:11 EST" duration-ms="1821" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:41 EST" name="Search" finished-at="2023-03-03T10:14:42 EST" duration-ms="1525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:11 EST" name="Search" finished-at="2023-03-02T01:46:13 EST" duration-ms="1687" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:42 EST" name="Search" finished-at="2023-03-03T10:14:44 EST" duration-ms="1537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:13 EST" name="Search" finished-at="2023-03-02T01:46:15 EST" duration-ms="1552" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:44 EST" name="Search" finished-at="2023-03-03T10:14:45 EST" duration-ms="1764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:15 EST" name="Search" finished-at="2023-03-02T01:46:16 EST" duration-ms="1655" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:45 EST" name="Search" finished-at="2023-03-03T10:14:47 EST" duration-ms="1684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:16 EST" name="Search" finished-at="2023-03-02T01:46:19 EST" duration-ms="2603" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:47 EST" name="Search" finished-at="2023-03-03T10:14:49 EST" duration-ms="1576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:19 EST" name="Search" finished-at="2023-03-02T01:46:21 EST" duration-ms="1526" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:49 EST" name="Search" finished-at="2023-03-03T10:14:50 EST" duration-ms="1646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:21 EST" name="Search" finished-at="2023-03-02T01:46:23 EST" duration-ms="2095" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:50 EST" name="Search" finished-at="2023-03-03T10:14:52 EST" duration-ms="1620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:23 EST" name="Search" finished-at="2023-03-02T01:46:25 EST" duration-ms="2534" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:52 EST" name="Search" finished-at="2023-03-03T10:14:53 EST" duration-ms="1395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:25 EST" name="Search" finished-at="2023-03-02T01:46:27 EST" duration-ms="1714" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:53 EST" name="Search" finished-at="2023-03-03T10:14:55 EST" duration-ms="1690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:27 EST" name="Search" finished-at="2023-03-02T01:46:28 EST" duration-ms="1618" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:55 EST" name="Search" finished-at="2023-03-03T10:14:57 EST" duration-ms="1827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:28 EST" name="Search" finished-at="2023-03-02T01:46:30 EST" duration-ms="1668" status="PASS">
+        <test-method signature="Search()[pri:2, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:57 EST" name="Search" finished-at="2023-03-03T10:14:58 EST" duration-ms="1628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-02T01:46:30 EST" name="closeBrowser" finished-at="2023-03-02T01:46:31 EST" duration-ms="1090" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:BingPackage.BingClass@7c711375]" started-at="2023-03-03T10:14:59 EST" name="closeBrowser" finished-at="2023-03-03T10:15:00 EST" duration-ms="972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
