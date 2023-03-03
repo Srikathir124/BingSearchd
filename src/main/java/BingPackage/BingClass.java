@@ -18,6 +18,7 @@ public class BingClass {
 	int i = 0;
 	static Actions action;
 
+	//Just For Fun
 	@BeforeSuite
 	@Parameters({"url"})
 	public void openUrl(String url) {
